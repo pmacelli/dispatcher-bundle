@@ -1,0 +1,32 @@
+{
+    "name": "comodojo/dispatcher-bundle",
+    "description": "Dispatcher 4.X default bundle",
+    "type": "comodojo-bundle",
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://dispatcher.comodojo.org",
+    "support": {
+        "issues": "https://github.com/comodojo/dispatcher-bundle/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Comodojo\\Dispatcher\\Commands\\": "src/Comodojo/Dispatcher/Commands"
+        }
+    },
+    "require": {
+        "comodojo/dispatcher.framework": "^4.0",
+        "comodojo/comodojo-installer": "dev-master"
+    },
+    "extra": {
+        "commands": [
+            {
+                "class": "\\Comodojo\\Dispatcher\\Commands\\CacheClear",
+                "scope": "dispatcher"
+            },
+            {
+                "class": "\\Comodojo\\Dispatcher\\Commands\\Info",
+                "scope": "dispatcher"
+            }
+        ]
+    }
+}
