@@ -14,8 +14,8 @@
         }
     },
     "require": {
-        "comodojo/dispatcher.framework": "dev-master",
-        "comodojo/comodojo-installer": "dev-master"
+        "comodojo/dispatcher.framework": "^4.0",
+        "comodojo/comodojo-installer": "^1.0"
     },
     "extra": {
         "commands": [
