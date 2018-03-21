@@ -15,7 +15,7 @@
     },
     "require": {
         "comodojo/dispatcher.framework": "^4.0",
-        "comodojo/comodojo-installer": "dev-master"
+        "comodojo/comodojo-installer": "^1.0"
     },
     "extra": {
         "commands": [
