@@ -25,13 +25,6 @@ class CacheClear extends AbstractCommand {
         $manager = SimpleCacheManager::createFromConfiguration($configuration, $logger);
         $version = new Version($configuration);
 
-        $output->writeln([
-            '',
-            $version->getName()." (".$version->getVersion().")",
-            '-----------------------------------',
-            ''
-        ]);
-
         $output->write('Clearing cache... ');
         $manager->clear();
         $output->write('done!');

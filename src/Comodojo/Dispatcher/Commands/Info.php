@@ -21,9 +21,8 @@ class Info extends AbstractCommand {
         $version = new Version($configuration);
 
         $output->writeln([
-            '',
-            $version->getFullDescription(),
-            ''
+            $version->getDescription(),
+            '-----------------------------'
         ]);
 
     }
