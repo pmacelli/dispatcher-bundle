@@ -5,7 +5,6 @@ use \Symfony\Component\Console\Input\InputInterface;
 use \Symfony\Component\Console\Output\OutputInterface;
 use \Comodojo\SimpleCache\Manager as SimpleCacheManager;
 use \Comodojo\Foundation\Logging\Manager as LogManager;
-use \Comodojo\Dispatcher\Components\Version;
 
 class CacheClear extends AbstractCommand {
 
@@ -23,7 +22,6 @@ class CacheClear extends AbstractCommand {
 
         $logger = LogManager::create('console', false)->getLogger();
         $manager = SimpleCacheManager::createFromConfiguration($configuration, $logger);
-        $version = new Version($configuration);
 
         $output->write('Clearing cache... ');
         $manager->clear();
