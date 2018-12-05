@@ -24,6 +24,10 @@
                 "scope": "dispatcher"
             },
             {
+                "class": "\\Comodojo\\Dispatcher\\Commands\\CacheStats",
+                "scope": "dispatcher"
+            },
+            {
                 "class": "\\Comodojo\\Dispatcher\\Commands\\Info",
                 "scope": "dispatcher"
             }
