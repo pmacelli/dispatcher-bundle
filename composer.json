@@ -13,6 +13,7 @@
             "Comodojo\\Dispatcher\\Commands\\": "src/Comodojo/Dispatcher/Commands"
         }
     },
+    "minimum-stability": "dev",
     "require": {
         "comodojo/dispatcher.framework": "dev-master",
         "comodojo/comodojo-installer": "dev-master"
