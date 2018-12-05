@@ -2,8 +2,6 @@
 
 Default service-bundle for comodojo/dispatcher.
 
-** This is the development branch, please do not use it in production**
-
 For more information, visit [dispatcher.comodojo.org](https://dispatcher.comodojo.org).
 
 ## Installation
