@@ -48,7 +48,6 @@ class CacheStats extends AbstractCommand {
         );
         $table->render();
 
-
     }
 
 }
