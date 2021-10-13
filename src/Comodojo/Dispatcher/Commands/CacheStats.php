@@ -30,6 +30,8 @@ class CacheStats extends AbstractCommand {
         foreach ($stats as $stat) {
             self::printStats($stat, $output);
         }
+        
+        return 1;
 
     }
 
