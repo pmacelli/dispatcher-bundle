@@ -29,7 +29,7 @@ class CacheClear extends AbstractCommand {
         $output->writeln('');
         
         //PHP Fatal error:  Uncaught TypeError: Return value of "Comodojo\Dispatcher\Commands\CacheClear::execute()" must be of the type int, "null" returned
-        return 1;
+        return 0;
 
     }
 
