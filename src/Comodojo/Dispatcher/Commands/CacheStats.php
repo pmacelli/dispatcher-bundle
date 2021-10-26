@@ -31,7 +31,7 @@ class CacheStats extends AbstractCommand {
             self::printStats($stat, $output);
         }
         
-        return 1;
+        return 0;
 
     }
 
