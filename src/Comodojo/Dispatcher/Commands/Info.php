@@ -25,7 +25,7 @@ class Info extends AbstractCommand {
             '-----------------------------'
         ]);
         
-        return 1;
+        return 0;
 
     }
 
