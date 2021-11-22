@@ -1,5 +1,5 @@
 {
-    "name": "comodojo/dispatcher-bundle",
+    "name": "pmarcelli/dispatcher-bundle",
     "description": "Dispatcher 4.X default bundle",
     "type": "comodojo-bundle",
     "license": "MIT",
@@ -14,8 +14,8 @@
         }
     },
     "require": {
-        "comodojo/dispatcher.framework": "dev-master",
-        "comodojo/comodojo-installer": "dev-master"
+        "pmarcelli/dispatcher.framework": "dev-dispatcher.framework_u7320",
+        "pmarcelli/comodojo-installer": "dev-comodojo-installer_u7320"
     },
     "extra": {
         "commands": [
